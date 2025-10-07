@@ -14,4 +14,12 @@ There will be a page listing all yarns, with a search bar allowing users to filt
 * a table of characteristics,
 * product photos,
 * an example of the yarn used in a finished item, showing how it looks in real use.
+### API Description
+
+All endpoints exchange data in JSON format.
+For each endpoint, a brief description of its purpose is provided, along with the Request Method, Request Body/Parameters (if applicable), and the Response Status and Response Body (if applicable).
+[Rest API](https://docs.google.com/spreadsheets/d/1m7OdmJv0rojxWQyFBp6YMk7nsoO9Mqy50FzeB4d1zZ8/edit?usp=sharing) 
+### Data Base 
+ 
+
   
