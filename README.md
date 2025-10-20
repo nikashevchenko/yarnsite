@@ -63,7 +63,3 @@ python manage.py migrate
     ```
 
 The project is available in your browser at: [http://127.0.0.1:8000/].
-
-## Database Schema
-
-![Database Tables](tables.png)
