@@ -24,3 +24,46 @@ For each endpoint, a brief description of its purpose is provided, along with th
  
 
   
+
+## How to start the project
+
+To start this project locally, follow these steps.
+
+1.  **Clone the repository:**
+```bash
+git clone https://github.com/nikashevchenko/yarnsite.git
+cd yarnsite
+```
+
+2.  **Create and activate a virtual environment:**
+* For **Windows**:
+```bash
+        python -m venv venv
+        venv\Scripts\activate
+        ```
+* For **macOS and Linux**:
+        ```bash
+        python3 -m venv venv
+        source venv/bin/activate
+        ```
+
+3.  **Install dependencies:**
+```bash
+    pip install -r requirements.txt
+    ```
+
+4.  **Apply database migrations:**
+```bash
+python manage.py migrate
+```
+
+6.  **Start the development server:**
+    ```bash
+    python manage.py runserver
+    ```
+
+The project is available in your browser at: [http://127.0.0.1:8000/].
+
+## Database Schema
+
+![Database Tables](tables.png)
